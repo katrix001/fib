@@ -3,7 +3,7 @@ pipeline {
 
     parameters {
         choice (name : 'NUMBER',
-        choices : [10, 20, 30 40, 50, 60, 70, 80,90],
+        choices : [10, 20, 30, 40, 50, 60, 70, 80,90],
         description : 'Select the value for F(n) for the fibonnai seq.')
     }
 
